@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Traces and reports (regenerate locally)
+traces/
+reports/
+
+# Database (local data)
+data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

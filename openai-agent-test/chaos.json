@@ -1,0 +1,18 @@
+{
+  "global": {
+    "delayMs": 500
+  },
+  "tools": {
+    "read_file": {
+      "delayMs": 2000,
+      "failRate": 0.3
+    },
+    "write_file": {
+      "delayMs": 1000,
+      "failRate": 0.2
+    },
+    "list_directory": {
+      "delayMs": 500
+    }
+  }
+}
